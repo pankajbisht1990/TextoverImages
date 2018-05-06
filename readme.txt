@@ -1,0 +1,1 @@
+Tip: If you're most comfortable with a point-and-click user interface, try adding your project with GitHub Desktop. For more information, see "Adding a repository from your local computer to GitHub Desktop" in the GitHub Desktop Help.
