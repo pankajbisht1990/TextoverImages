@@ -1,0 +1,26 @@
+<?php
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
+ * @package Amasty_TextoverImages
+ */
+?>
+<?php  
+    
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $product = $objectManager->get('Magento\Framework\Registry')->registry('current_product');
+	$attribute_code="custom_option_show"; // attribute with text value
+	$description_attribute = $product->getResource()->getAttribute($attribute_code);
+	$description_attribute_value = $description_attribute ->getFrontend()->getValue($product);
+	
+	//echo "<pre>";print_r($request);echo "</pre>";
+	//echo $product->getData('image');
+	//echo $product->getId();
+	//print_r($_REQUEST); die;
+    //echo $product->getName();
+	//echo $product->getData('thumbnail');
+	//echo $product->getData('small_image');	
+?>
+
+
+

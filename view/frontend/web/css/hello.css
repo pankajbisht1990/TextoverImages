@@ -1,0 +1,29 @@
+.amasty-textoverimages-block{
+    clear: both;
+    float: none;
+}
+.main_class {
+	margin-bottom: 12px;
+	padding: 16px 0px 20px 0px;
+}
+.jersey_nlbl {
+	text-align: left;
+	width: 50%;
+	float: left;
+}
+.input_Jerseyno {
+	width: 50%;
+	float: left;
+}
+.u_nlbl {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.input_Jerseyname {
+	float: left;
+	width: 50%;
+}
+.product-info-main .box-tocart .field.qty, .product-options-bottom .box-tocart .field.qty {
+	float: left!important;
+}
